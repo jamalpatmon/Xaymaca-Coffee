@@ -1,7 +1,8 @@
-const AboutPage = () => {
+import { Col, Row, Container } from "reactstrap";
+
+const AboutUs = () => {
   return (
     <Container>
-      <SubHeader current={"About Us"} />
       <Row className="row-content">
         <Col sm="6">
           <h3>Who Are We?</h3>
@@ -29,3 +30,5 @@ const AboutPage = () => {
     </Container>
   );
 };
+
+export default AboutUs;
