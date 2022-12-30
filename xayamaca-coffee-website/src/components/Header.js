@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header" id="header">
       <nav className="nav container">
-        <a href="#home" className="nav__logo">
+        <a href="/" className="nav__logo">
           <img
             src={XaymacaCoffeeLogo}
             width={120}
@@ -16,22 +16,22 @@ const Header = () => {
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
+              <a href="/" className="nav__link active-link">
                 Home
               </a>
             </li>
             <li className="nav__item">
-              <a href="#products" className="nav__link">
+              <a href="products" className="nav__link">
                 Products
               </a>
             </li>
             <li className="nav__item">
-              <a href="#place" className="nav__link">
+              <a href="about" className="nav__link">
                 About Us
               </a>
             </li>
             <li className="nav__item">
-              <a href="#blog" className="nav__link">
+              <a href="contact" className="nav__link">
                 Contact Us
               </a>
             </li>
